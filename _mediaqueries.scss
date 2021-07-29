@@ -1,0 +1,25 @@
+@media screen and (max-width:1000px){
+    header{
+        .main{
+            .principal{
+                font-size: 15px;
+            }
+        }
+    }
+    section{
+        margin-top:50px;
+        width: 700px;
+        .trabajos{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .trabajo{
+                width:40%;
+            }
+        }
+    } 
+    footer{
+        margin-top:350px;
+    }
+
+}

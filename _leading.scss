@@ -1,0 +1,67 @@
+section{
+    margin-left: 120px;
+    margin-top: 200px;
+    width: 1500px;
+    height: 600px;
+    .content{
+        font-size: 11px;
+        color: #34353a;
+    }
+    .trabajos{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .trabajo{
+            background: rgba(255, 255, 255, 1);
+            border: 1px solid #34353a;
+            border-radius: 10px;
+            width:23%;
+            .thumb{
+                width: 100%;
+                margin-bottom: 10px;
+                img{
+                    width:100%;
+                    border-radius: 10px;
+                }
+
+            }
+            .descripcion{
+                margin: 10px 40px;
+                .nombre{
+                    color: #34353a;
+                    margin-top:2px;
+                    margin-bottom: 25px;
+                }
+                .categoria{
+                    
+                }
+                .mapa{
+                    a{
+                        color: rgba(86,193,229,1);
+                    }
+                }
+                .dinero{
+
+                    .pago{
+                        display: inline-block;
+                        font-size:35px;
+                        color: #513ec0;
+                    }
+                    i{
+                        font-size:30px;
+                        color: rgba(0,0,0,0.1);
+                        &:hover {
+                            color: rgba(86,193,229,1);
+                        }
+                    }
+                }
+                .reward{
+                    color: rgba(86,193,229,1);
+                    font-size:18px;
+                }
+            }
+        }
+    }
+}
